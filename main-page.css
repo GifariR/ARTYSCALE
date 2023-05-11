@@ -33,23 +33,27 @@
     width: 380px;
 }
 
-.ideal {
+.status-group {
     align-items: flex-end;
     background-color: #95adfe4c;
     border-radius: 15px;
     display: flex;
+    margin-top: 47px;
     height: 54px;
-    margin-top: 31px;
     min-width: 110px;
-    padding: 4px 12px;
+    padding: 5px 4pх;
+    border-radius: 15px;
 }
 
-.ideal {
+.status-text {
     letter-spacing: 0;
     line-height: normal;
-    min-height: 45px;
-    min-width: 84px;
+    min-height: 42px;
+    width: 95px;
+    margin-left: 7px;
     text-align: center;
+    color: var(--black);
+    font-weight: bold;
 }
 
 .kirim-group {
@@ -60,8 +64,10 @@
     border-color: black;
     display: flex;
     height: 54px;
-    min-width: 11px;
-    padding: 10px 9px;
+    min-width: 110px;
+    margin-top: 47px;
+    padding: 5px 4pх;
+    border-radius: 15px;
 }
 
 .kirim-data {
@@ -74,6 +80,8 @@
     min-height: 24px;
     min-width: 88px;
     text-align: center;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
 .date {
@@ -95,9 +103,10 @@
     margin-left: 3.17px;
     margin-top: 47px;
     min-width: 377px;
+
 }
 
-.overlap-group1 {
+.height-box {
     align-items: flex-start;
     background-color: #f758584c;
     border-radius: 15px;
@@ -107,21 +116,16 @@
     padding: 5px 4pх;
 }
 
-.height {
+.height-text {
     letter-spacing: 0;
     line-height: normal;
     min-height: 42px;
     width: 95px;
-}
-
-
-.address-1 {
-    align-self: center;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-bottom: 10.41px;
-    min-height: 32px;
-    width: 243px;
+    text-align: center;
+    margin-top: 17px;
+    margin-left: 4.5px;
+    color: var(--black);
+    font-weight: bold;
 }
 
 .weight-group {
@@ -133,7 +137,7 @@
     min-width: 377px;
 }
 
-.overlap-group {
+.weight-box {
     align-items: flex-start;
     background-color: #f758584c;
     border-radius: 15px;
@@ -144,22 +148,16 @@
     position: relative;
 }
 
-.weight {
-    left: 4px;
+.weight-text {
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 8px;
-    width: 103px;
-}
-
-.address {
-    align-self: center;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-bottom: 10.41px;
-    min-height: 32px;
-    width: 243px;
+    min-height: 42px;
+    width: 95px;
+    text-align: center;
+    margin-top: 17px;
+    margin-left: 4.5px;
+    color: var(--black);
+    font-weight: bold;
 }
 
 .user-bayi {
@@ -169,15 +167,13 @@
     width: 286px;
 }
 
-.orang-tua-bayi-lucu {
+.orang-tua {
     color: var(--black);
     font-family: var(--font-family-poppins);
     font-size: var(--font-size-m2);
     font-weight: 700;
     left: 83px;
-    letter-spacing: 0;
     line-height: normal;
-    position: absolute;
     top: 53pх;
     width: 203px;
 }
@@ -193,13 +189,7 @@
     top: 0;
 }
 
-.user-image {
-    height: 75px;
-    object-fit: cover;
-    width: 64px;
-}
-
-.bayi-lucu {
+.bayi {
     color: var(--black);
     font-family: var(--fent-family-poppins);
     font-size: var(--font-size-12);
@@ -211,15 +201,7 @@
     width: 200px;
 }
 
-.flex-co1-1 {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    gap: 52px;
-    margin-top: 17pxi;
-    min-height: 113px;
-    width: 515px;
-}
+
 
 .monthly-chart {
     color: var(--black);
