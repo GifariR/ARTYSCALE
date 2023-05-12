@@ -33,7 +33,7 @@
     width: 380px;
 }
 
-.status-group {
+.suhu-group {
     align-items: flex-end;
     background-color: #95adfe4c;
     border-radius: 15px;
@@ -45,7 +45,7 @@
     border-radius: 15px;
 }
 
-.status-text {
+.suhu-text {
     letter-spacing: 0;
     line-height: normal;
     min-height: 42px;
